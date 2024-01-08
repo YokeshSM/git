@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    display: flexbox;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    background-color: blue;
+    border-radius: 20px 20px;
+    /* width:fit-content; */
+
+}
+
+li:hover{
+    background-color: aliceblue;
+    border-radius: 20px 20px;
+}
+.main3 h6{
+    text-align: center;
+    justify-content: space-between;
+}
+.main1 ul{
+    display:flex; 
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
+    text-align: center;
+    margin-right: 15px;
+    gap: 20px;
+}
+.main1 li
+{
+    list-style: none;
+    background-color: aquamarine;
+    text-align: center;
+    height: fit-content;
+    justify-content: center;
+    align-content: center;
+}
+
